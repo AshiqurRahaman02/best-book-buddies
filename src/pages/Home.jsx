@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Data from "../components/Data";
 import Resource from "../components/Resource";
 import Information from "../components/Information";
+import DesignCode from "../components/DesignCode";
 
 function Home() {
 	return (
@@ -18,7 +19,8 @@ function Home() {
 				<Hero />
 				<SecondaryHero />
 				<About />
-				<Information/>
+				<Information />
+				<DesignCode />
 				<Resource />
 				<Data />
 			</main>

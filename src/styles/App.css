@@ -126,6 +126,7 @@
 	padding: 25px 0px 0px 0px;
 	border-radius: 12px;
 	border: 1px solid #f7f8f9;
+	background-color: white;
 	box-shadow: 0px 16px 16px -1px #080b0e1a, 0px 0px 1px 0px #080b0e0f;
 }
 .meagan-info > div:nth-child(1) {
@@ -430,6 +431,8 @@
 
 	display: flex;
 	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
 	gap: 100px;
 }
 .information > div:nth-child(2) {
@@ -437,6 +440,8 @@
 	align-items: center;
 	flex-direction: column;
 	gap: 50px;
+
+	max-width: 610px;
 }
 .information > div:nth-child(2) > h1 {
 	font-size: 40px;
@@ -791,4 +796,67 @@
 	100% {
 		box-shadow: 0 0 0 0 rgb(218 103 68 / 0%);
 	}
+}
+
+.design-code {
+	padding: 128px 0px 80px 0px;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 100px;
+}
+.design-code > div {
+	display: flex;
+	gap: 20px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	position: relative;
+}
+
+.code-editor {
+	font-family: monospace;
+	background-color: #000000;
+	padding: 20px;
+	border-radius: 12px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+.code-editor p {
+	margin: 10px 0px;
+	color: white;
+}
+.code-editor .attribute {
+	color: #C5AC58;
+}
+.code-editor .property {
+	color: #64AFDD;
+}
+.code-editor .value {
+	color: #A66B4F; 
+}
+
+.design-code .side-part{
+	position: absolute;
+	top: -20px;
+	right: -50px;
+
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+.design-code .side-part .designer-info{
+	width: 100%;
+	background-color: white;
+}
+.design-code .side-part .designer-info .follow{
+	background-color: #0284fe;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

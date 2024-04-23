@@ -49,12 +49,12 @@ function Information() {
 					</div>
 
 					<div className="button"
-						style={{ position: "absolute", top: "190px", left: "220px" }}>
+						style={{ position: "absolute", top: "190px", left: "30px" }}>
 						<button> Button</button>
 					</div>
 
 					<div className="button"
-						style={{ position: "absolute", top: "190px", left: "55px" }}>
+						style={{ position: "absolute", top: "190px", left: "237px" }}>
 						<button style={{ borderRadius: "20px", padding: "10px" }}>
 							{" "}
 							<svg
