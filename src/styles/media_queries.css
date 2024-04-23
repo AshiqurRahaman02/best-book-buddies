@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 950px) {
+	.meagan-social-designer-info{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 650px) {
+	.info-1 {
+		display: none;
+	}
+	.nav-info.info-2 a {
+		padding: 0px;
+	}
+	.nav-bars {
+		display: block;
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 440px) {
+	.hero-heading-buttons{
+        flex-direction: column;
+    }
+    .hero-heading-buttons button{
+        width: 100%;
+    }
+}
